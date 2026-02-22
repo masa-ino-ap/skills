@@ -6,7 +6,9 @@
 
 ### ui-to-figma
 
-WebアプリのUIを分析・改善し、Figma MCPサーバー経由でFigmaにデザインを送るワークフロースキル。
+既存プロジェクトのCSS・Tailwind設定・コンポーネントを解析してデザイントークンを把握した上で、UIを視覚的に改善しFigma MCPサーバー経由でFigmaに送るワークフロースキル。
+
+単なるUI改善ではなく「プロジェクトのデザインシステムに整合した改善」が特徴。新しい色や間隔をハードコードせず、既存トークン・命名規則の範囲内で提案する。
 
 **使用場面:**
 - 「UIを見てFigmaに送って」
@@ -19,12 +21,13 @@ WebアプリのUIを分析・改善し、Figma MCPサーバー経由でFigmaに�
 
 詳細は [ui-to-figma/SKILL.md](./ui-to-figma/SKILL.md) を参照。
 
-## インストール方法
+## インストール
 
 ```bash
-# スキルディレクトリに配置する
-cp -r ui-to-figma ~/.claude/skills/
+npx skills add masa-ino-ap/skills@ui-to-figma -g -y
 ```
+
+Claude Code、Cursor、Codex、Gemini CLI、Kiro CLI など主要AIエージェントに対応しています。
 
 ## ライセンス
 
