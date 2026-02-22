@@ -16,6 +16,8 @@
 - 「UIを分析してFigmaにデザイン案を作って」
 
 **前提:**
+- 対象Webアプリのソースコードがローカルにあること
+- 対象Webアプリがローカルで起動できること（`localhost:PORT`）
 - Playwright（webapp-testingスキル）が利用可能であること
 - Figma MCPサーバーが設定済みであること
 
